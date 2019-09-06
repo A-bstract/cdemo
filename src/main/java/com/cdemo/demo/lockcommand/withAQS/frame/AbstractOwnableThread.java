@@ -11,5 +11,4 @@ public abstract class AbstractOwnableThread {
     protected void setOwnableThread(Thread exclusiveOwnableThread) {
         this.exclusiveOwnableThread = exclusiveOwnableThread;
     }
-
 }
